@@ -1,6 +1,6 @@
 body{
-    width: 80%;
-    margin: 0 auto;
+    /* width: 80%; */
+    /* margin: 0 auto; */
     background-color: rgb(245, 248, 255);
 }
 
@@ -10,7 +10,8 @@ body{
 .navber{
     display: flex;
     justify-content: space-between;
-   
+     width:80% ;
+     margin: 0 auto;
     align-items: center;
   
 
@@ -26,7 +27,8 @@ body{
     color:rgb(137, 135, 161)  ;
 }
 .banner{
-  
+     width:80% ;
+     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +52,8 @@ body{
     color: rgb(233, 90, 8);
 }
 .plant-container{
+     width:80% ;
+     margin: 0 auto;
               margin-top: 50px;
               
     
@@ -99,11 +103,12 @@ body{
 }
 
 .flower-plant{
-  
+     width:80% ;
+     margin: 0 auto;
     display: flex;
     gap: 50px;
     margin-top: 150px;
-    width: 100%;
+    /* width: 100%; */
     height: 500px;
     
   
@@ -140,16 +145,20 @@ body{
     font-size: 50px;
 }
 .deal-section{
-    margin-top: 100px;
-     
+   
+    padding-top: 50px;
     text-align: center;
     width: 53%;
     margin: 0 auto;
  
   
 }
+.deal-i{
+     width:80% ;
+     margin: 0 auto;
+}
 .deal-image{
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
     align-items: center;
     gap: 28px;
@@ -195,6 +204,26 @@ body{
     color: white;
     border-radius: 10px;
 }
+.image-1 h3 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.image-1 u {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.image-2 h3 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.image-2 u {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -10px;
+}
 #image-3{
     background-image: url("../assets/deal-zabo.png");
     width: 600px;
@@ -207,10 +236,109 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: white;
+    color: rgb(255, 255, 255) ;
     border-radius: 10px;
 
 }
+#image-3 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+#image-3 u {
+    font-size:30px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+#image-4{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    justify-items: center;
+    justify-content: center;
+   text-align: center;
+}
+#email{
+   width: 530px;
+   height: 20px;
+   margin-top: 2;
+   /* margin-right: -20px; */
+   padding: 10px;
+}
+.input-type{
+    display: flex;
+    justify-content: center;
+}
+#subscribe{
+    width: 100px;
+    height: 43px;
+    background-color: #E95A08;
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+ #image-4 h1{
+        font-size: 50px;
+        font-weight: bold;
+        color:rgb(255, 255, 255) ;
+    }
+    .ftr{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+       padding-top: 50px;
+      
+    }
+
+  .footer-link{
+    display: flex;
+    flex: none;
+    flex: 2;
+    gap: 200px;
+    justify-content: center;
+    width: 500px;
+  }
+  .footer-link ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-link li {
+    margin-bottom: 32px;
+    
+  }
+  .footer-left h2 {
+    width: 120px;
+    margin-bottom: -10px
+    
+  }
+  .footer-left p {
+    width: 300px;
+    left: 1.5;
+  }
+  .footer-social{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 30px;
+  }
+  .footer-social img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+
+
+   
+    
+   
+   
+
    
    
     
