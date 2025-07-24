@@ -1,0 +1,112 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+  
+
+}
+.navber-section{
+    display: flex;
+   list-style: none;
+   gap: 48px;
+  
+}
+.navber-section li:nth-child(2),
+ .navber-section li:nth-child(3) {
+    color:rgb(137, 135, 161)  ;
+}
+.banner{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+    
+}
+.banner-section{
+    font-weight: 700;
+    font-size: 50px;
+}
+#banner-title{
+    color: rgb(233, 90, 8);
+}
+.banner p {
+   margin-top: -30px;
+
+}
+
+#plan-title{
+    color: rgb(233, 90, 8);
+}
+.plant-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.plant-section p{
+    margin-top: -10px;
+    padding: 0px 150px;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.image-card{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 20px;
+}
+.image-container button{
+    background-color:rgb(233, 90, 8) ;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+.image-container h5 {
+    font-weight: bold;
+}
+.image-container h3 {
+    color: rgb(17, 17, 17);
+}
+
+.flower-plant{
+    margin: 100px;
+    display: flex;
+    gap: 50px;
+  
+   
+}
+.list-item{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.list-item h1 {
+    text width: 65%;
+
+  
+}
+.list-item ul>li {
+   
+    margin-bottom: 30px;
+    width: 100%;
+   
+   
+    
+
+    
+}
